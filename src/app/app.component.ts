@@ -11,7 +11,7 @@ import { RouterOutlet } from '@angular/router';
 export class AppComponent {
   title = 'FoodAppPart1';
   foodname:String ="Pizza"
-  foodimage:string ="../../public/images/pizza.png"
+  foodimage:string ="assets/images/pizza.png"
   foodprice:number =275
 
   orderNow(){

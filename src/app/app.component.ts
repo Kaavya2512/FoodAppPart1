@@ -10,4 +10,11 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'FoodAppPart1';
+  foodname:String ="Pizza"
+  foodimage:string ="../../public/images/pizza.png"
+  foodprice:number =275
+
+  orderNow(){
+    alert('${this.foodname} has been added to the cart')
+  }
 }

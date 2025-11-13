@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import {basicfooddatacomponent} from './basicfooddata/basicfooddata.component';
+import {fooditemsummarycomponent} from './fooditemsummary/fooditemsummary.component';
 
 @Component({
   selector: 'app-root',

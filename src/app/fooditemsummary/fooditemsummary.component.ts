@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-fooditemsummary',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './fooditemsummary.component.html',
   styleUrl: './fooditemsummary.component.css'
 })
